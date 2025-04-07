@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Hqv6AgcAbbP4m61GSzNAVdqxbApPnI8m5VjKKCMJM0o=",
+  "Source": "CifraManager.API",
+  "BasePath": "_content/CifraManager.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

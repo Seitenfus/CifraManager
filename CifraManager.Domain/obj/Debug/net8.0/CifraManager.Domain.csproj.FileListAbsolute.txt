@@ -1,0 +1,11 @@
+C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\bin\Debug\net8.0\CifraManager.Domain.deps.json
+C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\bin\Debug\net8.0\CifraManager.Domain.dll
+C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\bin\Debug\net8.0\CifraManager.Domain.pdb
+C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.AssemblyInfoInputs.cache
+C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.AssemblyInfo.cs
+C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.dll
+C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\obj\Debug\net8.0\refint\CifraManager.Domain.dll
+C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.pdb
+C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\obj\Debug\net8.0\ref\CifraManager.Domain.dll
