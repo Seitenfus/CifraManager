@@ -6,5 +6,7 @@ public interface ISongRepository
 {
     Task<Song> AddAsync(Song song);
     Task<IEnumerable<Song>> GetByTitleAsync(string title);
-    Task<IEnumerable<Song>> GetByThemeAsync(string themeName);
+    Task<IEnumerable<Song>> GetByThemeAsync(int themeId);
+    Task<IEnumerable<Song>> GetAllAsync();
+    Task<Song> ChangeThemeAsync(int id, int themeId);
 }

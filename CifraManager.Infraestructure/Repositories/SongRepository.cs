@@ -29,12 +29,32 @@ namespace CifraManager.Infraestructure.Repositories
                 .ToListAsync();
         }
 
-        public async Task<IEnumerable<Song>> GetByThemeAsync(string themeName)
+        public async Task<IEnumerable<Song>> GetByThemeAsync(int themeId)
         {
             return await _context.Songs
-                .Include(s => s.Theme)
-                .Where(s => s.Theme.Name == themeName)
+                .Where(s => s.ThemeId == themeId)
                 .ToListAsync();
+        }
+
+        public async Task<Song> ChangeThemeAsync(int id, int themeId)
+        {
+            var song = await _context.Songs.Where(s => s.Id == id).FirstOrDefaultAsync();
+
+
+            if (song == null)
+            {
+                throw new NullReferenceException("Essa música não foi incluída (ainda).");
+            }
+            else
+            {
+                song.ThemeId = themeId;
+            }
+            return song;
+        }
+
+        public async Task<IEnumerable<Song>> GetAllAsync()
+        {
+            return await _context.Songs.ToListAsync();
         }
     }
 }

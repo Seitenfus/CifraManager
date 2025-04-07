@@ -17,9 +17,19 @@ namespace CifraManager.Application.Services
             return await _repository.GetByTitleAsync(title);
         }
 
-        public async Task<IEnumerable<Song>> GetSongsByThemeAsync(string themeName)
+        public async Task<IEnumerable<Song>> GetSongsByThemeAsync(int themeId)
         {
-            return await _repository.GetByThemeAsync(themeName);
+            return await _repository.GetByThemeAsync(themeId);
+        }
+
+        public async Task<IEnumerable<Song>> GetAllSongsAsync()
+        {
+            return await _repository.GetAllAsync();
+        }
+
+        public async Task<Song> ChangeSongThemeAsync(int id, int themeId)
+        {
+            return await _repository.ChangeThemeAsync(id, themeId);
         }
     }
 }

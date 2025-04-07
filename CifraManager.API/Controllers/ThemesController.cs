@@ -1,5 +1,6 @@
 using CifraManager.Application.Interfaces;
 using CifraManager.Domain.Entities;
+using CifraManager.API.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CifraManager.API.Controllers
@@ -29,10 +30,5 @@ namespace CifraManager.API.Controllers
             var themes = await _themeService.GetAllThemesAsync();
             return Ok(themes);
         }
-    }
-
-    public class ThemeDto
-    {
-        public string Name { get; set; } = string.Empty;
     }
 }

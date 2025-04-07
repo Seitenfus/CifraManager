@@ -1,5 +1,6 @@
 using CifraManager.Application.Interfaces;
 using CifraManager.Domain.Entities;
+using CifraManager.API.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CifraManager.API.Controllers
@@ -26,12 +27,33 @@ namespace CifraManager.API.Controllers
             var result = await _songService.AddSongAsync(song);
             return Ok(result);
         }
-    }
 
-    public class SongUploadDto
-    {
-        public required string Title { get; set; }
-        public int ThemeId { get; set; }
-        public required IFormFile PdfFile { get; set; }
+        [HttpPost("get-by-title")]
+        public async Task<IActionResult> GetSongsByTitle([FromBody] SongTitleDto dto)
+        {
+            var songs = await _songService.GetSongsByTitleAsync(dto.Title);
+            return Ok(songs);
+        }
+
+        [HttpGet("get-by-theme/{id:int}")]
+        public async Task<IActionResult> GetSongsByTheme(int id)
+        {
+            var songs = await _songService.GetSongsByThemeAsync(id);
+            return Ok(songs);
+        }
+
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllSongs()
+        {
+            var songs = await _songService.GetAllSongsAsync();
+            return Ok(songs);
+        }
+
+        [HttpPut("change-theme")]
+        public async Task<IActionResult> ChangeThemeAsync([FromBody] ChangeThemeDto dto)
+        {
+            var songs = await _songService.ChangeSongThemeAsync(dto.Id, dto.ThemeId);
+            return Ok(songs);
+        }
     }
 }
