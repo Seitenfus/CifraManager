@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dugQjM/oIGo=",
+  "dgSpecHash": "loKdUhtx8kU=",
   "success": true,
-  "projectFilePath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\CifraManager.Infraestructure.csproj",
+  "projectFilePath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\CifraManager.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FelipeSeitenfus\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\FelipeSeitenfus\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

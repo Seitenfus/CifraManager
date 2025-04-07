@@ -1,8 +1,8 @@
 using CifraManager.Domain.Entities;
 using CifraManager.Application.Interfaces;
-
-using Microsoft.EntityFrameworkCore;
 using CifraManager.Infraestructure.Data;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace CifraManager.Infraestructure.Repositories
 {

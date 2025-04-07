@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.API\\CifraManager.API.csproj": {}
+    "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.API\\CifraManager.API.csproj": {}
   },
   "projects": {
-    "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.API\\CifraManager.API.csproj": {
+    "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.API\\CifraManager.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.API\\CifraManager.API.csproj",
+        "projectUniqueName": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.API\\CifraManager.API.csproj",
         "projectName": "CifraManager.API",
-        "projectPath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.API\\CifraManager.API.csproj",
+        "projectPath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.API\\CifraManager.API.csproj",
         "packagesPath": "C:\\Users\\FelipeSeitenfus\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.API\\obj\\",
+        "outputPath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -35,11 +35,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj": {
-                "projectPath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj"
+              "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj": {
+                "projectPath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj"
               },
-              "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\CifraManager.Infraestructure.csproj": {
-                "projectPath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\CifraManager.Infraestructure.csproj"
+              "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\CifraManager.Infraestructure.csproj": {
+                "projectPath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\CifraManager.Infraestructure.csproj"
               }
             }
           }
@@ -62,6 +62,12 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -95,14 +101,14 @@
         }
       }
     },
-    "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj": {
+    "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj",
+        "projectUniqueName": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj",
         "projectName": "CifraManager.Application",
-        "projectPath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj",
+        "projectPath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj",
         "packagesPath": "C:\\Users\\FelipeSeitenfus\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\obj\\",
+        "outputPath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -126,8 +132,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj": {
-                "projectPath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj"
+              "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj": {
+                "projectPath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj"
               }
             }
           }
@@ -166,14 +172,14 @@
         }
       }
     },
-    "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj": {
+    "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj",
+        "projectUniqueName": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj",
         "projectName": "CifraManager.Domain",
-        "projectPath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj",
+        "projectPath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj",
         "packagesPath": "C:\\Users\\FelipeSeitenfus\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\obj\\",
+        "outputPath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -233,14 +239,14 @@
         }
       }
     },
-    "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\CifraManager.Infraestructure.csproj": {
+    "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\CifraManager.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\CifraManager.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\CifraManager.Infraestructure.csproj",
         "projectName": "CifraManager.Infraestructure",
-        "projectPath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\CifraManager.Infraestructure.csproj",
+        "projectPath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\CifraManager.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\FelipeSeitenfus\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\obj\\",
+        "outputPath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -264,11 +270,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj": {
-                "projectPath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj"
+              "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj": {
+                "projectPath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Application\\CifraManager.Application.csproj"
               },
-              "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj": {
-                "projectPath": "c:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj"
+              "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj": {
+                "projectPath": "C:\\Projects\\wearefabrica\\CifraManager\\CifraManager.Domain\\CifraManager.Domain.csproj"
               }
             }
           }
