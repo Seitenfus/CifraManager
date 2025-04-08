@@ -33,8 +33,14 @@ namespace CifraManager.Infraestructure.Migrations
                         .IsRequired()
                         .HasColumnType("varbinary(max)");
 
+                    b.Property<int>("PdfId")
+                        .HasColumnType("int");
+
                     b.Property<int>("ThemeId")
                         .HasColumnType("int");
+
+                    b.Property<string>("ThemeName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
                         .IsRequired()

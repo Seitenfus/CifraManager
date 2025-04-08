@@ -7,29 +7,35 @@ namespace CifraManager.Application.Services
     {
         private readonly ISongRepository _repository = repository;
 
-        public async Task<Song> AddSongAsync(Song song)
+        public async Task<Song> AddAsync(Song song)
         {
             return await _repository.AddAsync(song);
         }
 
-        public async Task<IEnumerable<Song>> GetSongsByTitleAsync(string title)
+        public async Task<IEnumerable<Song>> GetByTitleAsync(string title)
         {
             return await _repository.GetByTitleAsync(title);
         }
 
-        public async Task<IEnumerable<Song>> GetSongsByThemeAsync(int themeId)
+        public async Task<IEnumerable<Song>> GetByThemeAsync(int themeId)
         {
             return await _repository.GetByThemeAsync(themeId);
         }
 
-        public async Task<IEnumerable<Song>> GetAllSongsAsync()
+        public async Task<Song> GetByIdAsync(int id)
+        {
+            return await _repository.GetByIdAsync(id);
+        }
+
+
+        public async Task<IEnumerable<Song>> GetAllAsync()
         {
             return await _repository.GetAllAsync();
         }
 
-        public async Task<Song> ChangeSongThemeAsync(int id, int themeId)
+        public async Task<Song> ChangeThemeAsync(int id, int themeId, string themeName)
         {
-            return await _repository.ChangeThemeAsync(id, themeId);
+            return await _repository.ChangeThemeAsync(id, themeId, themeName);
         }
     }
 }

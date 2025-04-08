@@ -6,14 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CifraManager.Infraestructure.Repositories
 {
-    public class SongRepository : ISongRepository
+    public class SongRepository(AppDbContext context) : ISongRepository
     {
-        private readonly AppDbContext _context;
-
-        public SongRepository(AppDbContext context)
-        {
-            _context = context;
-        }
+        private readonly AppDbContext _context = context;
 
         public async Task<Song> AddAsync(Song song)
         {
@@ -33,10 +28,17 @@ namespace CifraManager.Infraestructure.Repositories
         {
             return await _context.Songs
                 .Where(s => s.ThemeId == themeId)
+                .OrderBy(s => s.Title)
                 .ToListAsync();
         }
 
-        public async Task<Song> ChangeThemeAsync(int id, int themeId)
+        public async Task<Song> GetByIdAsync(int id)
+        {
+            var song = await _context.Songs.Include(s => s.Theme).Where(s => s.Id == id).FirstOrDefaultAsync() ?? throw new NullReferenceException("Essa música não foi incluída (ainda).");
+            return song;
+        }
+
+        public async Task<Song> ChangeThemeAsync(int id, int themeId, string themeName)
         {
             var song = await _context.Songs.Where(s => s.Id == id).FirstOrDefaultAsync();
 
@@ -48,7 +50,9 @@ namespace CifraManager.Infraestructure.Repositories
             else
             {
                 song.ThemeId = themeId;
+                song.ThemeName = themeName;
             }
+            await _context.SaveChangesAsync();
             return song;
         }
 

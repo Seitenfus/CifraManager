@@ -5,13 +5,19 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CifraManager.Infraestructure.Repositories
 {
-    public class ThemeRepository : IThemeRepository
+    public class ThemeRepository(AppDbContext context) : IThemeRepository
     {
-        private readonly AppDbContext _context;
+        private readonly AppDbContext _context = context;
 
-        public ThemeRepository(AppDbContext context)
+        public async Task<IEnumerable<Theme>> GetAllAsync()
         {
-            _context = context;
+            return await _context.Themes.ToListAsync();
+        }
+
+        public async Task<Theme> GetByIdAsync(int id)
+        {
+            return await _context.Themes.FirstOrDefaultAsync(t => t.Id == id)
+                ?? throw new NullReferenceException("Tema não encontrado.");
         }
 
         public async Task<Theme> AddAsync(Theme theme)
@@ -19,11 +25,6 @@ namespace CifraManager.Infraestructure.Repositories
             _context.Themes.Add(theme);
             await _context.SaveChangesAsync();
             return theme;
-        }
-
-        public async Task<IEnumerable<Theme>> GetAllAsync()
-        {
-            return await _context.Themes.ToListAsync();
         }
     }
 }

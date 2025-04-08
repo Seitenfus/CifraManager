@@ -3,6 +3,7 @@ using CifraManager.Application.Services;
 using Microsoft.EntityFrameworkCore;
 using CifraManager.Infraestructure.Repositories;
 using CifraManager.Infraestructure.Data;
+using CifraManager.Application.Mappings;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +16,7 @@ builder.Services.AddScoped<ISongRepository, SongRepository>();
 builder.Services.AddScoped<ISongService, SongService>();
 builder.Services.AddScoped<IThemeRepository, ThemeRepository>();
 builder.Services.AddScoped<IThemeService, ThemeService>();
-
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

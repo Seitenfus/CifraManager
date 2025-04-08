@@ -5,9 +5,10 @@ namespace CifraManager.Application.Interfaces;
 
 public interface ISongService
 {
-    Task<Song> AddSongAsync(Song song);
-    Task<IEnumerable<Song>> GetSongsByTitleAsync(string title);
-    Task<IEnumerable<Song>> GetSongsByThemeAsync(int themeId);
-    Task<IEnumerable<Song>> GetAllSongsAsync();
-    Task<Song> ChangeSongThemeAsync(int id, int themeId);
+    Task<Song> AddAsync(Song song);
+    Task<IEnumerable<Song>> GetByTitleAsync(string title);
+    Task<IEnumerable<Song>> GetByThemeAsync(int themeId);
+    Task<IEnumerable<Song>> GetAllAsync();
+    Task<Song> ChangeThemeAsync(int id, int themeId, string themeName);
+    Task<Song> GetByIdAsync(int id);
 }

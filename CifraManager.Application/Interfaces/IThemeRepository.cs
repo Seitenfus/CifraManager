@@ -4,7 +4,8 @@ namespace CifraManager.Application.Interfaces
 {
     public interface IThemeRepository
     {
-        Task<Theme> AddAsync(Theme theme);
         Task<IEnumerable<Theme>> GetAllAsync();
+        Task<Theme> GetByIdAsync(int id);
+        Task<Theme> AddAsync(Theme theme);
     }
 }
