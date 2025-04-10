@@ -9,3 +9,15 @@ C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\obj\Debug\net8.0\Cifra
 C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\obj\Debug\net8.0\refint\CifraManager.Domain.dll
 C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.pdb
 C:\Projects\wearefabrica\CifraManager\CifraManager.Domain\obj\Debug\net8.0\ref\CifraManager.Domain.dll
+C:\Users\FelipeSeitenfus\Documents\GitHub\CifraManager\back-end\CifraManager.Domain\bin\Debug\net8.0\CifraManager.Domain.deps.json
+C:\Users\FelipeSeitenfus\Documents\GitHub\CifraManager\back-end\CifraManager.Domain\bin\Debug\net8.0\CifraManager.Domain.dll
+C:\Users\FelipeSeitenfus\Documents\GitHub\CifraManager\back-end\CifraManager.Domain\bin\Debug\net8.0\CifraManager.Domain.pdb
+C:\Users\FelipeSeitenfus\Documents\GitHub\CifraManager\back-end\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FelipeSeitenfus\Documents\GitHub\CifraManager\back-end\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.AssemblyInfoInputs.cache
+C:\Users\FelipeSeitenfus\Documents\GitHub\CifraManager\back-end\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.AssemblyInfo.cs
+C:\Users\FelipeSeitenfus\Documents\GitHub\CifraManager\back-end\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\FelipeSeitenfus\Documents\GitHub\CifraManager\back-end\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.sourcelink.json
+C:\Users\FelipeSeitenfus\Documents\GitHub\CifraManager\back-end\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.dll
+C:\Users\FelipeSeitenfus\Documents\GitHub\CifraManager\back-end\CifraManager.Domain\obj\Debug\net8.0\refint\CifraManager.Domain.dll
+C:\Users\FelipeSeitenfus\Documents\GitHub\CifraManager\back-end\CifraManager.Domain\obj\Debug\net8.0\CifraManager.Domain.pdb
+C:\Users\FelipeSeitenfus\Documents\GitHub\CifraManager\back-end\CifraManager.Domain\obj\Debug\net8.0\ref\CifraManager.Domain.dll

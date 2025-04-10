@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CifraManager.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0984520a8c1c7eba3e058c39ce8a23f8f9af4f99")]
 [assembly: System.Reflection.AssemblyProductAttribute("CifraManager.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CifraManager.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
